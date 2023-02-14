@@ -20,7 +20,6 @@ public class OwnerController {
     @RequestMapping({"","index.html","index","/"})
     public String listOwners(Model model){
         System.out.println("List All Owners");
-        model.addAttribute("owners",ownerService.findAll());
         Set<Owner> owners = ownerService.findAll();
         for(Owner o : owners){
             System.out.println(o.getId() + "   " + o.getFirstName() + "   " + o.getLastName());

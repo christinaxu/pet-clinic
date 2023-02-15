@@ -30,22 +30,20 @@ public class DataLoader implements CommandLineRunner {
         cat.setName("Cat");
 
         Owner owner1 = new Owner();
-        owner1.setId(1L);
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
 
-        ownerService.save(owner1.getId(), owner1);
+        ownerService.save(owner1);
 
         Pet mikesPet = new Pet();
         mikesPet.setPetType(dog);
         mikesPet.setOwner(owner1);
 
         Owner owner2 = new Owner();
-        owner2.setId(2L);
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
 
-        ownerService.save(owner2.getId(),owner2);
+        ownerService.save(owner2);
 
         Pet fionasCat = new Pet();
         fionasCat.setPetType(cat);
@@ -57,14 +55,14 @@ public class DataLoader implements CommandLineRunner {
         vet1.setLastName("Axe");
 
 
-        vetService.save(vet1.getId(),vet1);
+        vetService.save(vet1);
 
         Vet vet2 = new Vet();
         vet2.setFirstName("Jessie");
         vet2.setLastName("Porter");
 
 
-        vetService.save(vet2.getId(),vet2);
+        vetService.save(vet2);
 
         System.out.println("Data finish Loading...");
 

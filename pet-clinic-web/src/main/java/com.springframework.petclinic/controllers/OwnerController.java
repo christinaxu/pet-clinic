@@ -29,13 +29,4 @@ public class OwnerController {
 
     }
 
-
-    /*
-    @RequestMapping({"","index.html","index","/"})
-    public String petIndex(){
-        System.out.println("test");
-        return "test";
-    }
-    */
-
 }

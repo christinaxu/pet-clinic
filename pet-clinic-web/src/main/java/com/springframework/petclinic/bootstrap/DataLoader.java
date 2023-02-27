@@ -10,6 +10,7 @@ import com.springframework.petclinic.services.map.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
@@ -65,7 +66,6 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet2);
 
         System.out.println("Data finish Loading...");
-
 
 
     }

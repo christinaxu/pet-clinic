@@ -1,8 +1,11 @@
 package com.springframework.petclinic.models;
 
+import java.time.LocalDate;
+
 public class Pet extends BaseEntity{
     private PetType petType;
     private Owner owner;
+    private LocalDate birthDate;
     public Pet(){}
 
     public PetType getPetType() {
@@ -19,5 +22,13 @@ public class Pet extends BaseEntity{
 
     public void setOwner(Owner owner) {
         this.owner = owner;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 }

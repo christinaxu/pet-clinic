@@ -5,10 +5,10 @@ import com.springframework.petclinic.models.Owner;
 import com.springframework.petclinic.models.Pet;
 import com.springframework.petclinic.models.PetType;
 import com.springframework.petclinic.models.Vet;
-import com.springframework.petclinic.services.map.OwnerService;
-import com.springframework.petclinic.services.map.PetService;
-import com.springframework.petclinic.services.map.PetTypeService;
-import com.springframework.petclinic.services.map.VetService;
+import com.springframework.petclinic.services.OwnerService;
+import com.springframework.petclinic.services.PetService;
+import com.springframework.petclinic.services.PetTypeService;
+import com.springframework.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

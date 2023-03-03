@@ -1,7 +1,7 @@
 package com.springframework.petclinic.controllers;
 
 import com.springframework.petclinic.models.Owner;
-import com.springframework.petclinic.services.map.OwnerService;
+import com.springframework.petclinic.services.map.OwnerServiceMap;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,9 +11,9 @@ import java.util.Set;
 @RequestMapping("/owners")
 @Controller
 public class OwnerController {
-    private final OwnerService ownerService;
+    private final OwnerServiceMap ownerService;
 
-    public OwnerController(OwnerService ownerService) {
+    public OwnerController(OwnerServiceMap ownerService) {
         this.ownerService = ownerService;
     }
 

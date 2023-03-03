@@ -1,4 +1,6 @@
+/Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/map/PetTypeService.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/Person.java
+/Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/Visit.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/Pet.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/Vet.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/map/VetService.java
@@ -6,6 +8,8 @@
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/BaseEntity.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/VetService.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/map/PetService.java
+/Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com.springframework.petclinic/models/Specialty.java
+/Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/PetTypeService.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/map/AbstractServiceMap.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/CrudService.java
 /Users/xuna/Documents/springframeworkLearning/project/pet-clinic/pet-clinic-data/src/main/java/com/springframework/petclinic/services/map/OwnerService.java

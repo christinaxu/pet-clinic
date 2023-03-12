@@ -29,4 +29,9 @@ public class OwnerController {
 
     }
 
+    @RequestMapping("/find")
+    public String findOwners(){
+        return "notimpelemented";
+    }
+
 }

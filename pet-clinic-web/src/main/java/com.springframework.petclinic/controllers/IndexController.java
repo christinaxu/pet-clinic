@@ -10,4 +10,9 @@ public class IndexController {
         System.out.println("test");
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String oupsPage(){
+        return "notimpelemented";
+    }
 }
